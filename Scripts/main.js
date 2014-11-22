@@ -3,7 +3,7 @@ var data =[];
 var cache;
 var Cmd;
 var points =0;
-var Tim{
+var Tim ={
 Name:"Tim",
 Level:"1",
 Age:"0"
