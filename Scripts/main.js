@@ -5,6 +5,7 @@ var Responces =[
 "Hello to you sir!",
 "good morning to you to!"
 "Good afternoon to you!",
+"Bye",
 "Please don't curse!"
 ];
 function log(msg){
@@ -22,9 +23,25 @@ if(cache[0]=="hello"){
 log(Responces[0]);
 }
 else if(cache[0]=="good"&&cache[1]=="morning"){
+  log(Responces[1]);
+}
+else if(cache[0]=="good"&&cache[1]=="afternoon"){
+  log(Responces[2])
+}
+else if(cache[0]=="bye"){
+  log(Responces[3]);
+}
+
+
+}
+//points sytem basic
+
+function ShowPoints(){
+  document.getElementById("Points")
   
 }
 
 
-}
+
+
 
