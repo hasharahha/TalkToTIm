@@ -1,3 +1,4 @@
+alert("Welcome to Talking tim")
 var data =[];
 var cache;
 var Cmd;
