@@ -1,6 +1,12 @@
 var data =[];
 var cache;
 var Cmd;
+var points =0;
+var Tim{
+Name:"Tim",
+Level:"1",
+Age:"0"
+}
 var Responces =[
 "Hello to you sir!",
 "good morning to you to!"
@@ -38,7 +44,13 @@ else if(cache[0]=="bye"){
 
 function ShowPoints(){
   document.getElementById("Points")
-  
+ if(points===25){
+   Tim.Age =1;
+   points +=5;
+   alert("Congratulations, Level 2 reached")
+   Tim.level =2;
+   
+ } 
 }
 
 
