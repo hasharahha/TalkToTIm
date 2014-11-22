@@ -1,4 +1,4 @@
-alert("Welcome to Talking tim")
+alert("Welcome to Talking tim");
 var data =[];
 var cache;
 var Cmd;
@@ -7,7 +7,7 @@ var Tim ={
 Name:"Tim",
 Level:"1",
 Age:"0"
-}
+};
 var Responces =[
 "Hello to you sir!",
 "good morning to you to!"
